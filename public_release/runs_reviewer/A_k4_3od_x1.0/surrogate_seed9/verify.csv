@@ -1,0 +1,11 @@
+rank,pred_benefit,att,k,closed_edges,run_dir
+0,-267.686732,274.734000,2,"E12,E21",D:\PSPS\runs_reviewer\A_k4_3od_x1.0\surrogate_seed9\verify_000
+1,-270.952743,277.119000,3,"E12,E21,E27",D:\PSPS\runs_reviewer\A_k4_3od_x1.0\surrogate_seed9\verify_001
+2,-272.426701,315.812000,1,E12,D:\PSPS\runs_reviewer\A_k4_3od_x1.0\surrogate_seed9\verify_002
+3,-272.902474,268.481000,3,"E12,E21,E42",D:\PSPS\runs_reviewer\A_k4_3od_x1.0\surrogate_seed9\verify_003
+4,-274.047811,239.403000,4,"E12,E21,E27,E42",D:\PSPS\runs_reviewer\A_k4_3od_x1.0\surrogate_seed9\verify_004
+5,-274.611702,252.768000,4,"E12,E20,E21,E27",D:\PSPS\runs_reviewer\A_k4_3od_x1.0\surrogate_seed9\verify_005
+6,-274.955737,280.385000,2,"E12,E27",D:\PSPS\runs_reviewer\A_k4_3od_x1.0\surrogate_seed9\verify_006
+7,-275.931221,252.030000,4,"E12,E16,E21,E27",D:\PSPS\runs_reviewer\A_k4_3od_x1.0\surrogate_seed9\verify_007
+8,-275.971978,269.170000,3,"E12,E21,E33",D:\PSPS\runs_reviewer\A_k4_3od_x1.0\surrogate_seed9\verify_008
+9,-276.073252,242.958000,4,"E12,E20,E21,E42",D:\PSPS\runs_reviewer\A_k4_3od_x1.0\surrogate_seed9\verify_009

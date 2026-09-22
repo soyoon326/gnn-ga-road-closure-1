@@ -1,0 +1,66 @@
+{
+  "experiments": [
+    {
+      "name": "J_k16_6od_x1.0_plain",
+      "sumo_bin": "sumo",
+      "sumocfg": "netJ/wildau_6od_x1.0.sumocfg",
+      "net": "netJ/Netzmodell2.net.xml",
+      "kmin": 1,
+      "kmax": 16,
+      "candidates_file": "netJ/wildau_6od_candidate_edges.txt",
+      "enforce_od_connectivity": true,
+      "out_policy": "output_policy_J_k16_6od_x1.0_plain",
+      "parts": 8,
+      "samples_per_part": 125,
+      "parallel_parts": 4,
+      "trainer": "v2",
+      "epochs": 120,
+      "policy_model": "output_policy_J_k16_6od_x1.0_plain/policy_model_v2.pt",
+      "runs_root": "runs_J_k16_plain",
+      "modes": [
+        "none",
+        "init",
+        "mutation",
+        "both"
+      ],
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "pop": 24,
+      "gen": 15,
+      "jobs": 8,
+      "parallel_runs": 3,
+      "protect": [
+        "-111677671#1",
+        "-255274250",
+        "-27149243",
+        "-37548821#0",
+        "111677671#1",
+        "111681905#0",
+        "255274250",
+        "27149243",
+        "311298682#1",
+        "37548821#0",
+        "4935299#0",
+        "876057378#6"
+      ],
+      "demand_size": 1500,
+      "analyze_jobs": 4,
+      "notes": "Appendix D restored-density probe re-run on the SAME demand as the 39-instance J instances (wildau_6od_x1.0, 1,500 veh). The published probe (_v3c) used the 1,350-veh v3 demand, contradicting 'demand untouched'. Everything else identical: 169-edge candidate file, kmin 1, kmax 16, OD-connectivity repair, v2 trainer 120 epochs. | GA re-run 2026-09-10 with GA_STEP_LIMIT=20000 (5.6 h simulated; unfinished runs are penalised either way) because gridlocked sets at 200,000 steps cost ~50 min each.",
+      "dataset_seed": 1234,
+      "sumo_seed_base": 100000,
+      "train_seed": 42,
+      "train_deterministic": true,
+      "train_device": "cpu"
+    }
+  ]
+}

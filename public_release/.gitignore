@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+runs/
+runs_*/**/g[0-9][0-9][0-9]_i*/
+runs_*/**/e[0-9][0-9][0-9][0-9]/
+*.log.tmp
+tripinfo*.xml
+closures*.add.xml
+merged_analysis_38_k0/aggregate_merged.csv

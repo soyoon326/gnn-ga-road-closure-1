@@ -1,0 +1,141 @@
+=== Table 4 (mean / best / worst / sd / range, n)
+             inst                  arm   n   mean   best  worst    sd  range
+0   A_k4_3od_x1.0                 none  10 236.54 229.63 245.03  5.36  15.40
+1   A_k4_3od_x1.0                 init  10 237.81 223.89 250.92  9.68  27.03
+2   A_k4_3od_x1.0             mutation  10 234.31 224.05 242.97  6.21  18.91
+3   A_k4_3od_x1.0   surrogate_repaired  10 225.74 223.89 230.93  3.00   7.03
+4   A_k4_3od_x1.0            heuristic  10 233.10 223.89 242.44  5.50  18.55
+5   A_k4_3od_x1.0                   sa  10 226.47 223.89 231.72  3.37   7.82
+6   A_k4_3od_x1.0  surrogate_submitted  10 227.69 223.89 231.38  3.33   7.48
+7   A_k4_3od_x1.0                 both  10 235.35 224.05 247.21  7.75  23.16
+8   A_k4_3od_x1.0        heuristic_rev  10 248.67 237.22 257.06  6.29  19.83
+9   B_k9_3od_x1.0                 none  10 480.77 473.19 486.05  4.19  12.86
+10  B_k9_3od_x1.0                 init  10 476.29 462.69 486.49  6.53  23.81
+11  B_k9_3od_x1.0             mutation  10 475.55 468.97 480.50  4.43  11.53
+12  B_k9_3od_x1.0   surrogate_repaired  10 477.91 464.23 487.20  6.54  22.97
+13  B_k9_3od_x1.0            heuristic  10 484.32 478.31 490.90  4.35  12.59
+14  B_k9_3od_x1.0                   sa  10 478.76 464.76 490.29  7.31  25.53
+15  B_k9_3od_x1.0  surrogate_submitted  10 502.29 490.67 512.21  6.85  21.54
+16  B_k9_3od_x1.0                 both  10 472.98 461.86 485.09  6.08  23.23
+17  B_k9_3od_x1.0        heuristic_rev  10 486.91 481.21 492.05  3.69  10.84
+18  J_k9_6od_x1.0                 none  10 363.60 338.62 380.04 12.93  41.42
+19  J_k9_6od_x1.0                 init  10 356.41 324.63 382.19 18.71  57.56
+20  J_k9_6od_x1.0             mutation  10 371.71 359.06 380.04  6.44  20.98
+21  J_k9_6od_x1.0   surrogate_repaired  10 564.11 380.04 644.46 89.85 264.42
+22  J_k9_6od_x1.0            heuristic  10 355.52 348.28 358.10  3.04   9.82
+23  J_k9_6od_x1.0                   sa  10 450.01 338.07 613.50 99.10 275.43
+24  J_k9_6od_x1.0  surrogate_submitted  10 584.58 359.10 643.50 84.99 284.40
+25  J_k9_6od_x1.0                 both  10 361.30 324.63 373.83 16.81  49.20
+
+=== A: seeds reaching the best value found on A by any arm
+  both                 best 224.05  seeds at 223.89: 0  per-seed [236.19, 238.85, 237.5, 236.19, 224.05, 229.63, 247.21, 224.05, 234.81, 245.02]
+  init                 best 223.89  seeds at 223.89: 2  per-seed [223.89, 230.93, 250.92, 241.1, 250.13, 223.89, 244.08, 236.48, 234.28, 242.39]
+  mutation             best 224.05  seeds at 223.89: 0  per-seed [233.37, 230.93, 230.93, 224.05, 240.35, 231.72, 236.19, 242.95, 242.97, 229.63]
+  none                 best 229.63  seeds at 223.89: 0  per-seed [241.62, 239.2, 237.16, 229.63, 231.08, 240.31, 238.34, 245.03, 229.63, 233.37]
+  surrogate_submitted  best 223.89  seeds at 223.89: 4  per-seed [229.63, 229.63, 223.89, 223.89, 231.38, 229.63, 223.89, 223.89, 229.63, 231.38]
+  heuristic            best 223.89  seeds at 223.89: 1  per-seed [223.89, 229.63, 230.53, 230.71, 237.94, 233.37, 239.47, 233.37, 242.44, 229.63]
+  sa                   best 223.89  seeds at 223.89: 6  per-seed [223.89, 229.98, 231.72, 223.89, 223.89, 229.63, 223.89, 223.89, 223.89, 229.98]
+  heuristic_rev        best 237.22  seeds at 223.89: 0  per-seed [245.38, 254.4, 241.91, 252.35, 244.28, 257.06, 237.22, 253.87, 250.95, 249.29]
+  surrogate_repaired   best 223.89  seeds at 223.89: 7  per-seed [223.89, 230.93, 223.89, 229.63, 229.63, 223.89, 223.89, 223.89, 223.89, 223.89]
+
+=== default-seed tests vs both (F7 within instance, G21 over all)
+             inst                  arm   n      mean     A12       p      F7     G21
+0   A_k4_3od_x1.0                 none  10 236.53580 0.57000 0.62239 1.00000 1.00000
+1   A_k4_3od_x1.0                 init  10 237.80990 0.56000 0.67724 1.00000 1.00000
+2   A_k4_3od_x1.0             mutation  10 234.30800 0.44500 0.70440 1.00000 1.00000
+3   A_k4_3od_x1.0   surrogate_repaired  10 225.74410 0.08000 0.00131 0.00920 0.02240
+4   A_k4_3od_x1.0            heuristic  10 233.09880 0.40000 0.47151 1.00000 1.00000
+5   A_k4_3od_x1.0                   sa  10 226.46630 0.11500 0.00355 0.02130 0.05680
+6   A_k4_3od_x1.0  surrogate_submitted  10 227.68500 0.16000 0.01034 0.05168 0.14471
+7   B_k9_3od_x1.0                 none  10 480.76580 0.89000 0.00361 0.01805 0.05680
+8   B_k9_3od_x1.0                 init  10 476.28720 0.68000 0.18588 0.37175 1.00000
+9   B_k9_3od_x1.0             mutation  10 475.54900 0.62000 0.38467 0.38467 1.00000
+10  B_k9_3od_x1.0   surrogate_repaired  10 477.90685 0.73000 0.08897 0.26692 0.80076
+11  B_k9_3od_x1.0            heuristic  10 484.32150 0.95000 0.00077 0.00459 0.01454
+12  B_k9_3od_x1.0                   sa  10 478.76090 0.78000 0.03764 0.15054 0.41399
+13  B_k9_3od_x1.0  surrogate_submitted  10 502.28755 1.00000 0.00018 0.00128 0.00365
+14  J_k9_6od_x1.0                 none  10 363.59567 0.51000 0.96916 1.00000 1.00000
+15  J_k9_6od_x1.0                 init  10 356.41340 0.44000 0.67303 1.00000 1.00000
+16  J_k9_6od_x1.0             mutation  10 371.71127 0.73500 0.07211 0.21632 0.72105
+17  J_k9_6od_x1.0   surrogate_repaired  10 564.11100 1.00000 0.00017 0.00120 0.00361
+18  J_k9_6od_x1.0            heuristic  10 355.51747 0.20000 0.02514 0.10055 0.30166
+19  J_k9_6od_x1.0                   sa  10 450.01427 0.83000 0.01363 0.06813 0.17713
+20  J_k9_6od_x1.0  surrogate_submitted  10 584.58053 0.93000 0.00124 0.00747 0.02240
+
+=== surrogate arms and heuristic_rev against none / both / heuristic (raw MW p)
+  A_k4_3od_x1.0 surrogate_repaired   vs none     : diff   -10.79 s  A12(arm better) 0.960  p 0.0004185  min(arm)-max(ref) -21.13
+  A_k4_3od_x1.0 surrogate_repaired   vs both     : diff    -9.61 s  A12(arm better) 0.920  p 0.001314  min(arm)-max(ref) -23.32
+  A_k4_3od_x1.0 surrogate_submitted  vs none     : diff    -8.85 s  A12(arm better) 0.900  p 0.002374  min(arm)-max(ref) -21.13
+  A_k4_3od_x1.0 heuristic_rev        vs heuristic: diff   +15.57 s  A12(arm better) 0.040  p 0.0005773  min(arm)-max(ref) -5.22
+  A_k4_3od_x1.0 heuristic_rev        vs none     : diff   +12.14 s  A12(arm better) 0.070  p 0.001309  min(arm)-max(ref) -7.81
+  A_k4_3od_x1.0 heuristic_rev        vs both     : diff   +13.32 s  A12(arm better) 0.090  p 0.002185  min(arm)-max(ref) -9.99
+  B_k9_3od_x1.0 surrogate_repaired   vs none     : diff    -2.86 s  A12(arm better) 0.620  p 0.3847  min(arm)-max(ref) -21.82
+  B_k9_3od_x1.0 surrogate_repaired   vs both     : diff    +4.92 s  A12(arm better) 0.270  p 0.08897  min(arm)-max(ref) -20.86
+  B_k9_3od_x1.0 surrogate_submitted  vs none     : diff   +21.52 s  A12(arm better) 0.000  p 0.0001827  min(arm)-max(ref) +4.62
+  B_k9_3od_x1.0 heuristic_rev        vs heuristic: diff    +2.59 s  A12(arm better) 0.320  p 0.1857  min(arm)-max(ref) -9.69
+  B_k9_3od_x1.0 heuristic_rev        vs none     : diff    +6.14 s  A12(arm better) 0.140  p 0.007285  min(arm)-max(ref) -4.84
+  B_k9_3od_x1.0 heuristic_rev        vs both     : diff   +13.93 s  A12(arm better) 0.040  p 0.0005828  min(arm)-max(ref) -3.88
+  J_k9_6od_x1.0 surrogate_repaired   vs none     : diff  +200.52 s  A12(arm better) 0.005  p 0.0002064  min(arm)-max(ref) +0.00
+  J_k9_6od_x1.0 surrogate_repaired   vs both     : diff  +202.81 s  A12(arm better) 0.000  p 0.0001717  min(arm)-max(ref) +6.20
+  J_k9_6od_x1.0 surrogate_submitted  vs none     : diff  +220.98 s  A12(arm better) 0.070  p 0.001282  min(arm)-max(ref) -20.94
+
+=== verified-candidate cardinality
+  A_k4_3od_x1.0: reported arm share k=kmax 1.00 (n=100); Appendix A arm share k=kmax 0.33 (n=100) {1: 10, 2: 35, 3: 22, 4: 33}
+  B_k9_3od_x1.0: reported arm share k=kmax 0.99 (n=100); Appendix A arm share k=kmax 0.93 (n=100) {2: 1, 5: 1, 6: 3, 7: 1, 8: 1, 9: 93}
+  J_k9_6od_x1.0: reported arm share k=kmax 1.00 (n=100); Appendix A arm share k=kmax 0.96 (n=100) {1: 1, 4: 1, 6: 1, 7: 1, 9: 96}
+
+=== held-out A_k4_3od_x1.0  no-closure 296.12
+  both                 def   235.35 ho   243.01 best   232.99 worst   254.16 curse   +7.66 pen 0
+  none                 def   236.54 ho   250.33 best   236.88 worst   270.92 curse  +13.79 pen 0
+  init                 def   237.81 ho   248.13 best   226.92 worst   264.90 curse  +10.32 pen 0
+  mutation             def   234.31 ho   245.21 best   234.09 worst   254.51 curse  +10.90 pen 0
+  surrogate_repaired   def   225.74 ho   230.52 best   226.92 worst   240.18 curse   +4.78 pen 0
+  heuristic            def   233.10 ho   244.17 best   226.92 worst   254.45 curse  +11.07 pen 0
+  sa                   def   226.47 ho   233.05 best   226.92 worst   252.06 curse   +6.58 pen 0
+  surrogate_submitted  def   227.69 ho   233.54 best   226.92 worst   240.18 curse   +5.86 pen 0
+
+=== held-out B_k9_3od_x1.0  no-closure 528.99
+  both                 def   472.98 ho   499.33 best   479.60 worst   528.34 curse  +26.35 pen 0
+  none                 def   480.77 ho   509.74 best   498.31 worst   526.71 curse  +28.97 pen 0
+  init                 def   476.29 ho   505.76 best   493.45 worst   517.19 curse  +29.48 pen 0
+  mutation             def   475.55 ho   499.93 best   487.39 worst   522.45 curse  +24.38 pen 0
+  surrogate_repaired   def   477.91 ho   491.83 best   478.45 worst   506.04 curse  +13.92 pen 0
+  heuristic            def   484.32 ho   522.38 best   509.76 worst   533.85 curse  +38.06 pen 0
+  sa                   def   478.76 ho   511.46 best   494.45 worst   537.94 curse  +32.70 pen 0
+  surrogate_submitted  def   502.29 ho   515.32 best   498.75 worst   536.23 curse  +13.03 pen 0
+
+=== held-out J_k9_6od_x1.0  no-closure 604.55
+  both                 def   361.30 ho   360.42 best   331.11 worst   384.60 curse   -0.88 pen 0
+  none                 def   363.60 ho   363.63 best   340.11 worst   412.36 curse   +0.04 pen 3
+  init                 def   356.41 ho   355.66 best   331.11 worst   374.41 curse   -0.76 pen 0
+  mutation             def   371.71 ho   371.94 best   354.70 worst   412.36 curse   +0.23 pen 0
+  surrogate_repaired   def   586.34 ho   588.05 best   460.82 worst   631.42 curse   +1.72 pen 0
+  heuristic            def   355.52 ho   366.60 best   355.13 worst   380.50 curse  +11.08 pen 0
+  sa                   def   450.01 ho   477.22 best   342.19 worst   635.05 curse  +27.21 pen 0
+  surrogate_submitted  def   584.58 ho   576.94 best   365.92 worst   634.32 curse   -7.64 pen 0
+
+             inst                  arm     mean    A12      p  both_worst  arm_best  diff_vs_both     F7    G21
+0   A_k4_3od_x1.0                 none 250.3278 0.6900 0.1610    254.1574  236.8828        7.3138 0.6441 1.0000
+1   A_k4_3od_x1.0                 init 248.1303 0.6400 0.3069    254.1574  226.9232        5.1163 0.9208 1.0000
+2   A_k4_3od_x1.0             mutation 245.2119 0.5950 0.4947    254.1574  234.0908        2.1979 0.9893 1.0000
+3   A_k4_3od_x1.0   surrogate_repaired 230.5206 0.1300 0.0047    254.1574  226.9232      -12.4934 0.0330 0.0802
+4   A_k4_3od_x1.0            heuristic 244.1712 0.5100 0.9698    254.1574  226.9232        1.1572 0.9893 1.0000
+5   A_k4_3od_x1.0                   sa 233.0477 0.2050 0.0261    254.1574  226.9232       -9.9663 0.1436 0.3912
+6   A_k4_3od_x1.0  surrogate_submitted 233.5430 0.2000 0.0239    254.1574  226.9232       -9.4710 0.1436 0.3829
+7   B_k9_3od_x1.0                 none 509.7398 0.7100 0.1212    528.3397  498.3128       10.4060 0.5205 1.0000
+8   B_k9_3od_x1.0                 init 505.7632 0.6400 0.3075    528.3397  493.4532        6.4294 0.9225 1.0000
+9   B_k9_3od_x1.0             mutation 499.9282 0.5300 0.8501    528.3397  487.3927        0.5944 0.9454 1.0000
+10  B_k9_3od_x1.0   surrogate_repaired 491.8254 0.4000 0.4727    528.3397  478.4515       -7.5084 0.9454 1.0000
+11  B_k9_3od_x1.0            heuristic 522.3774 0.9000 0.0028    528.3397  509.7623       23.0436 0.0198 0.0537
+12  B_k9_3od_x1.0                   sa 511.4644 0.7200 0.1041    528.3397  494.4508       12.1306 0.5205 1.0000
+13  B_k9_3od_x1.0  surrogate_submitted 515.3199 0.7500 0.0640    528.3397  498.7460       15.9861 0.3841 0.8963
+14  J_k9_6od_x1.0                 none 363.6348 0.5000 1.0000    384.5953  340.1140        3.2144 1.0000 1.0000
+15  J_k9_6od_x1.0                 init 355.6556 0.4100 0.5143    384.5953  331.1135       -4.7648 1.0000 1.0000
+16  J_k9_6od_x1.0             mutation 371.9426 0.6250 0.3481    384.5953  354.6975       11.5222 1.0000 1.0000
+17  J_k9_6od_x1.0   surrogate_repaired 588.0540 1.0000 0.0002    384.5953  460.8220      227.6336 0.0012 0.0036
+18  J_k9_6od_x1.0            heuristic 366.6023 0.6600 0.2394    384.5953  355.1304        6.1819 0.9575 1.0000
+19  J_k9_6od_x1.0                   sa 477.2198 0.8800 0.0044    384.5953  342.1891      116.7995 0.0221 0.0796
+20  J_k9_6od_x1.0  surrogate_submitted 576.9392 0.9600 0.0005    384.5953  365.9216      216.5189 0.0033 0.0109
+  held-out A_k4_3od_x1.0: surrogate_repaired vs none diff -19.81, A12(none better) 0.040, p 0.0004185, min(sur)-max(none) -44.00
+  held-out B_k9_3od_x1.0: surrogate_repaired vs none diff -17.91, A12(none better) 0.080, p 0.001706, min(sur)-max(none) -48.26
+  held-out J_k9_6od_x1.0: surrogate_repaired vs none diff +224.42, A12(none better) 1.000, p 0.0001817, min(sur)-max(none) +48.46

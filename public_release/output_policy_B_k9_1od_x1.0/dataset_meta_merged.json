@@ -1,0 +1,166 @@
+{
+  "parts": 8,
+  "total_samples": 1000,
+  "parts_meta": [
+    {
+      "seed": 1234,
+      "part_id": 0,
+      "shard_seed": 1234,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 9,
+      "protect": [
+        "E35",
+        "E35 E44",
+        "E44"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E35",
+        "E44"
+      ],
+      "sumocfg": "D:\\PSPS\\netB\\sim_1od_x1.0.sumocfg",
+      "net": "D:\\PSPS\\netB\\netB.net.xml"
+    },
+    {
+      "seed": 1234,
+      "part_id": 1,
+      "shard_seed": 11241,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 9,
+      "protect": [
+        "E35",
+        "E35 E44",
+        "E44"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E35",
+        "E44"
+      ],
+      "sumocfg": "D:\\PSPS\\netB\\sim_1od_x1.0.sumocfg",
+      "net": "D:\\PSPS\\netB\\netB.net.xml"
+    },
+    {
+      "seed": 1234,
+      "part_id": 2,
+      "shard_seed": 21248,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 9,
+      "protect": [
+        "E35",
+        "E35 E44",
+        "E44"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E35",
+        "E44"
+      ],
+      "sumocfg": "D:\\PSPS\\netB\\sim_1od_x1.0.sumocfg",
+      "net": "D:\\PSPS\\netB\\netB.net.xml"
+    },
+    {
+      "seed": 1234,
+      "part_id": 3,
+      "shard_seed": 31255,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 9,
+      "protect": [
+        "E35",
+        "E35 E44",
+        "E44"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E35",
+        "E44"
+      ],
+      "sumocfg": "D:\\PSPS\\netB\\sim_1od_x1.0.sumocfg",
+      "net": "D:\\PSPS\\netB\\netB.net.xml"
+    },
+    {
+      "seed": 1234,
+      "part_id": 4,
+      "shard_seed": 41262,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 9,
+      "protect": [
+        "E35",
+        "E35 E44",
+        "E44"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E35",
+        "E44"
+      ],
+      "sumocfg": "D:\\PSPS\\netB\\sim_1od_x1.0.sumocfg",
+      "net": "D:\\PSPS\\netB\\netB.net.xml"
+    },
+    {
+      "seed": 1234,
+      "part_id": 5,
+      "shard_seed": 51269,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 9,
+      "protect": [
+        "E35",
+        "E35 E44",
+        "E44"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E35",
+        "E44"
+      ],
+      "sumocfg": "D:\\PSPS\\netB\\sim_1od_x1.0.sumocfg",
+      "net": "D:\\PSPS\\netB\\netB.net.xml"
+    },
+    {
+      "seed": 1234,
+      "part_id": 6,
+      "shard_seed": 61276,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 9,
+      "protect": [
+        "E35",
+        "E35 E44",
+        "E44"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E35",
+        "E44"
+      ],
+      "sumocfg": "D:\\PSPS\\netB\\sim_1od_x1.0.sumocfg",
+      "net": "D:\\PSPS\\netB\\netB.net.xml"
+    },
+    {
+      "seed": 1234,
+      "part_id": 7,
+      "shard_seed": 71283,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 9,
+      "protect": [
+        "E35",
+        "E35 E44",
+        "E44"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E35",
+        "E44"
+      ],
+      "sumocfg": "D:\\PSPS\\netB\\sim_1od_x1.0.sumocfg",
+      "net": "D:\\PSPS\\netB\\netB.net.xml"
+    }
+  ]
+}

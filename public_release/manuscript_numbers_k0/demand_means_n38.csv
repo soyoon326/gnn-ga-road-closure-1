@@ -1,0 +1,7 @@
+evaluation,mode,0.8,1.0,1.2
+default,init,0.043,0.428,-0.121
+default,mutation,0.287,0.142,0.699
+default,both,0.277,0.777,0.554
+heldout,init,0.15,0.237,-0.038
+heldout,mutation,0.269,-0.246,0.444
+heldout,both,0.551,0.65,0.608

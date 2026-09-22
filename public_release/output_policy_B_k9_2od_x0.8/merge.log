@@ -1,0 +1,12 @@
+loading D:\PSPS\output_policy_B_k9_2od_x0.8\part0\dataset_policy.pt
+loading D:\PSPS\output_policy_B_k9_2od_x0.8\part1\dataset_policy.pt
+loading D:\PSPS\output_policy_B_k9_2od_x0.8\part2\dataset_policy.pt
+loading D:\PSPS\output_policy_B_k9_2od_x0.8\part3\dataset_policy.pt
+loading D:\PSPS\output_policy_B_k9_2od_x0.8\part4\dataset_policy.pt
+loading D:\PSPS\output_policy_B_k9_2od_x0.8\part5\dataset_policy.pt
+loading D:\PSPS\output_policy_B_k9_2od_x0.8\part6\dataset_policy.pt
+loading D:\PSPS\output_policy_B_k9_2od_x0.8\part7\dataset_policy.pt
+saved merged dataset to D:\PSPS\output_policy_B_k9_2od_x0.8\dataset_policy.pt
+copied graph file from D:\PSPS\output_policy_B_k9_2od_x0.8\part0\graph_policy.pt to D:\PSPS\output_policy_B_k9_2od_x0.8\graph_policy.pt
+wrote D:\PSPS\output_policy_B_k9_2od_x0.8\dataset_meta_merged.json
+merged 1000 samples

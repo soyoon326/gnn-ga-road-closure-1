@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <vType id="carR" vClass="passenger" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="70">
+    <param key="device.rerouting.probability" value="1.0"/>
+    <param key="device.rerouting.period" value="60"/>
+  </vType>
+
+  <!-- OD1: E28 -> E40 -->
+  <flow id="OD1_E28_E40" type="carR"
+        begin="0" end="3600" number="400"
+        from="E28" to="E40"
+        departLane="best" departSpeed="max"/>
+
+  <!-- OD2: E18->E40 -->
+  <flow id="OD2_E18_E40" type="carR"
+        begin="0" end="3600" number="200"
+        from="E18" to="E40"
+        departLane="best" departSpeed="max"/>
+
+ <!-- OD2: E12->E40 -->
+  <flow id="OD2_E12_E40" type="carR"
+        begin="0" end="3600" number="200"
+        from="E12" to="E40"
+        departLane="best" departSpeed="max"/>
+
+</routes>

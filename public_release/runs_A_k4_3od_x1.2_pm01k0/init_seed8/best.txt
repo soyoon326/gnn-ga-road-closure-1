@@ -1,0 +1,2 @@
+best_score=323.965833
+closed_edges=E27 E30 E39 E45

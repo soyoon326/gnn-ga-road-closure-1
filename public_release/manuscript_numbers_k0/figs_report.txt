@@ -1,0 +1,17 @@
+data   : D:\PSPS\merged_analysis_38_k0
+outdir : D:\PSPS\figs_k0_out
+instances in data: 38
+  wrote D:\PSPS\figs_k0_out\fig02_network_improvement.pdf
+  wrote D:\PSPS\figs_k0_out\fig03_instance_both.pdf
+  wrote D:\PSPS\figs_k0_out\fig04_solution_family.pdf
+  wrote D:\PSPS\figs_k0_out\fig05_search_dynamics.pdf
+  wrote D:\PSPS\figs_k0_out\fig06_diversity_vs_gain.pdf
+  wrote D:\PSPS\figs_k0_out\fig07_density_vs_benefit.pdf
+  low density  n=3 mean=+0.63 sd=3.48 range=[-2.23, +4.50]
+  high density n=35 mean=+0.35 sd=0.63 range=[-1.10, +2.20]
+
+-- values quoted in the text --
+  mean pairwise Jaccard : {'none': 0.129, 'init': 0.138, 'mutation': 0.163, 'both': 0.171}
+  mean top-3 edge share : {'none': 0.237, 'init': 0.246, 'mutation': 0.261, 'both': 0.271}
+  mean gen to 95%       : {'none': 8.64, 'init': 8.27, 'mutation': 8.06, 'both': 8.48}
+  mean progress AUC     : {'none': 0.684, 'init': 0.675, 'mutation': 0.739, 'both': 0.697}

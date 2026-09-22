@@ -1,0 +1,2 @@
+best_score=490.292000
+closed_edges=-E13 -E31 E13

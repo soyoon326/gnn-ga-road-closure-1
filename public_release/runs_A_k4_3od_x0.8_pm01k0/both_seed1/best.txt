@@ -1,0 +1,2 @@
+best_score=181.055000
+closed_edges=E1 E20 E27 E42

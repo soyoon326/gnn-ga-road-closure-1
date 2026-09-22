@@ -1,0 +1,2 @@
+best_score=478.141500
+closed_edges=-E11 -E31 -E46 E33 E40 E9

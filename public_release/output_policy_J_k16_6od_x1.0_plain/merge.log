@@ -1,0 +1,12 @@
+loading output_policy_J_k16_6od_x1.0_plain\part0\dataset_policy.pt
+loading output_policy_J_k16_6od_x1.0_plain\part1\dataset_policy.pt
+loading output_policy_J_k16_6od_x1.0_plain\part2\dataset_policy.pt
+loading output_policy_J_k16_6od_x1.0_plain\part3\dataset_policy.pt
+loading output_policy_J_k16_6od_x1.0_plain\part4\dataset_policy.pt
+loading output_policy_J_k16_6od_x1.0_plain\part5\dataset_policy.pt
+loading output_policy_J_k16_6od_x1.0_plain\part6\dataset_policy.pt
+loading output_policy_J_k16_6od_x1.0_plain\part7\dataset_policy.pt
+saved merged dataset to output_policy_J_k16_6od_x1.0_plain\dataset_policy.pt
+copied graph file from output_policy_J_k16_6od_x1.0_plain\part0\graph_policy.pt to output_policy_J_k16_6od_x1.0_plain\graph_policy.pt
+wrote output_policy_J_k16_6od_x1.0_plain\dataset_meta_merged.json
+merged 1000 samples

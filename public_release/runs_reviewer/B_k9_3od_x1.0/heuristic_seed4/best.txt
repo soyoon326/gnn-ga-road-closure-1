@@ -1,0 +1,2 @@
+best_score=479.655000
+closed_edges=-E17 -E45 -E6 -E7 E17 E40 E45 E47 E7

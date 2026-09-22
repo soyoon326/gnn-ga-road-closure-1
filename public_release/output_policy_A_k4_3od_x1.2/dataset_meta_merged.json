@@ -1,0 +1,198 @@
+{
+  "parts": 8,
+  "total_samples": 1000,
+  "parts_meta": [
+    {
+      "seed": 1234,
+      "part_id": 0,
+      "shard_seed": 1234,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 4,
+      "protect": [
+        "E12",
+        "E18",
+        "E28",
+        "E28 E40 E18 E12",
+        "E40"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E12",
+        "E18",
+        "E28",
+        "E40"
+      ],
+      "sumocfg": "D:\\PSPS\\netA\\sim_3od_x1.2.sumocfg",
+      "net": "D:\\PSPS\\netA\\network_v2.net.xml"
+    },
+    {
+      "seed": 1234,
+      "part_id": 1,
+      "shard_seed": 11241,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 4,
+      "protect": [
+        "E12",
+        "E18",
+        "E28",
+        "E28 E40 E18 E12",
+        "E40"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E12",
+        "E18",
+        "E28",
+        "E40"
+      ],
+      "sumocfg": "D:\\PSPS\\netA\\sim_3od_x1.2.sumocfg",
+      "net": "D:\\PSPS\\netA\\network_v2.net.xml"
+    },
+    {
+      "seed": 1234,
+      "part_id": 2,
+      "shard_seed": 21248,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 4,
+      "protect": [
+        "E12",
+        "E18",
+        "E28",
+        "E28 E40 E18 E12",
+        "E40"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E12",
+        "E18",
+        "E28",
+        "E40"
+      ],
+      "sumocfg": "D:\\PSPS\\netA\\sim_3od_x1.2.sumocfg",
+      "net": "D:\\PSPS\\netA\\network_v2.net.xml"
+    },
+    {
+      "seed": 1234,
+      "part_id": 3,
+      "shard_seed": 31255,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 4,
+      "protect": [
+        "E12",
+        "E18",
+        "E28",
+        "E28 E40 E18 E12",
+        "E40"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E12",
+        "E18",
+        "E28",
+        "E40"
+      ],
+      "sumocfg": "D:\\PSPS\\netA\\sim_3od_x1.2.sumocfg",
+      "net": "D:\\PSPS\\netA\\network_v2.net.xml"
+    },
+    {
+      "seed": 1234,
+      "part_id": 4,
+      "shard_seed": 41262,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 4,
+      "protect": [
+        "E12",
+        "E18",
+        "E28",
+        "E28 E40 E18 E12",
+        "E40"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E12",
+        "E18",
+        "E28",
+        "E40"
+      ],
+      "sumocfg": "D:\\PSPS\\netA\\sim_3od_x1.2.sumocfg",
+      "net": "D:\\PSPS\\netA\\network_v2.net.xml"
+    },
+    {
+      "seed": 1234,
+      "part_id": 5,
+      "shard_seed": 51269,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 4,
+      "protect": [
+        "E12",
+        "E18",
+        "E28",
+        "E28 E40 E18 E12",
+        "E40"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E12",
+        "E18",
+        "E28",
+        "E40"
+      ],
+      "sumocfg": "D:\\PSPS\\netA\\sim_3od_x1.2.sumocfg",
+      "net": "D:\\PSPS\\netA\\network_v2.net.xml"
+    },
+    {
+      "seed": 1234,
+      "part_id": 6,
+      "shard_seed": 61276,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 4,
+      "protect": [
+        "E12",
+        "E18",
+        "E28",
+        "E28 E40 E18 E12",
+        "E40"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E12",
+        "E18",
+        "E28",
+        "E40"
+      ],
+      "sumocfg": "D:\\PSPS\\netA\\sim_3od_x1.2.sumocfg",
+      "net": "D:\\PSPS\\netA\\network_v2.net.xml"
+    },
+    {
+      "seed": 1234,
+      "part_id": 7,
+      "shard_seed": 71283,
+      "sumo_seed_base": 100000,
+      "samples": 125,
+      "kmax": 4,
+      "protect": [
+        "E12",
+        "E18",
+        "E28",
+        "E28 E40 E18 E12",
+        "E40"
+      ],
+      "auto_protect_endpoints": true,
+      "endpoints": [
+        "E12",
+        "E18",
+        "E28",
+        "E40"
+      ],
+      "sumocfg": "D:\\PSPS\\netA\\sim_3od_x1.2.sumocfg",
+      "net": "D:\\PSPS\\netA\\network_v2.net.xml"
+    }
+  ]
+}

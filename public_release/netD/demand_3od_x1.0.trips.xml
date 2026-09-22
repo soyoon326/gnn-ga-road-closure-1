@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <vType id="carR" vClass="passenger" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="70">
+    <param key="device.rerouting.probability" value="1.0"/>
+    <param key="device.rerouting.period" value="60"/>
+  </vType>
+
+   <!-- OD1: west -> east -->
+    <flow id="OD1"
+          type="carR"
+          from="E35"
+          to="E44"
+          begin="0"
+          end="3600"
+          number="1000"
+          departLane="best"
+          departSpeed="max"/>
+
+
+
+    <!-- OD3: south -> north -->
+    <flow id="OD3"
+          type="carR"
+          from="-E41"
+          to="E20"
+          begin="0"
+          end="3600"
+          number="500"
+          departLane="best"
+          departSpeed="max"/>
+
+  <!-- OD5: western edge -> network centre -->
+    <flow id="OD5"
+          type="carR"
+          from="E38"
+          to="E12"
+          begin="0"
+          end="3600"
+          number="500"
+          departLane="best"
+          departSpeed="max"/>
+</routes>

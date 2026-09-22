@@ -1,0 +1,30 @@
+Reference method: both
+
+=== A_k4_3od_x1.0  (n=10 seeds for both)
+  method                   n A12(both>x)     MWU p   Holm p
+  none (GA only)          10       0.570    0.6224   1.0000  
+  init                    10       0.560    0.6772   1.0000  
+  mutation                10       0.445    0.7044   1.0000  
+  surrogate fitness       10       0.780    0.0361   0.1443  
+  structural heuristic    10       0.175    0.0148   0.0742  
+  simulated annealing     10       0.100    0.0024   0.0145 *
+
+=== B_k9_3od_x1.0  (n=10 seeds for both)
+  method                   n A12(both>x)     MWU p   Holm p
+  none (GA only)          10       0.890    0.0036   0.0144 *
+  init                    10       0.680    0.1859   0.3718  
+  mutation                10       0.620    0.3847   0.3847  
+  surrogate fitness       10       1.000    0.0002   0.0011 *
+  structural heuristic    10       0.950    0.0008   0.0038 *
+  simulated annealing     10       0.780    0.0376   0.1129  
+
+=== J_k9_6od_x1.0  (n=10 seeds for both)
+  method                   n A12(both>x)     MWU p   Holm p
+  none (GA only)          10       0.510    0.9692   1.0000  
+  init                    10       0.440    0.6730   1.0000  
+  mutation                10       0.735    0.0721   0.2163  
+  surrogate fitness       10       0.930    0.0012   0.0075 *
+  structural heuristic    10       0.200    0.0251   0.1006  
+  simulated annealing     10       0.830    0.0136   0.0681  
+
+A12 > 0.5 favours the proposed method; * marks Holm p < 0.05.

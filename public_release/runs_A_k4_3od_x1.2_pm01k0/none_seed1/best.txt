@@ -1,0 +1,2 @@
+best_score=315.699167
+closed_edges=E17 E21 E27 E33

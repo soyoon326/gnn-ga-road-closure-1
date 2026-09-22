@@ -1,0 +1,4 @@
+﻿mode,n_instances,corr_gain_vs_diversity_drop_spearman,corr_gain_vs_gen1_best_gain_spearman,corr_gain_vs_gen1_mean_gain_spearman
+both,38,-0.2802020908753048,0.2792580843486132,0.4590217748112485
+init,38,-0.13025491778420137,0.35530995293101375,0.12878870773607617
+mutation,38,,,

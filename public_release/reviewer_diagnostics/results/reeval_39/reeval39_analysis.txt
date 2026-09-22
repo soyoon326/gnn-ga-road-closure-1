@@ -1,0 +1,54 @@
+rows 7800  instances 39  SUMO seeds [np.int64(201), np.int64(202), np.int64(203), np.int64(204), np.int64(205)]
+penalised re-evaluations: 39 ({'both': 9, 'init': 10, 'mutation': 8, 'none': 12})
+
+============================================================================
+[1] Winner's curse: default-seed ATT vs expected ATT on held-out seeds
+  mode         default  held-out  inflation
+  none          507.12    528.23     +21.10
+  init          506.93    528.31     +21.38
+  mutation      505.56    527.03     +21.46
+  both          505.03    526.22     +21.20
+  mean inflation over all runs: +21.29 s (sd 16.98)
+  spread of the inflation across modes: 0.36 s (largest mutation, smallest none)
+  Any difference in inflation BETWEEN modes is a bias in the reported
+  comparison, not just a shift; the guidance margin has to be read against
+  it.
+
+============================================================================
+[2] Headline 39-instance result -- DEFAULT SEED (as reported in the paper)
+  mode        improved  meanDelta   median%  Wilcoxon p    Holm p  meanA12
+  init         20/39       -0.19     0.003    6.94e-01    0.6940    0.519
+  mutation     28/39       -1.56     0.189    5.70e-03    0.0114    0.590  *
+  both         31/39       -2.10     0.316    6.84e-05    0.0002    0.604  *
+
+============================================================================
+[2] Headline 39-instance result -- HELD-OUT SEEDS (expected ATT)
+  mode        improved  meanDelta   median%  Wilcoxon p    Holm p  meanA12
+  init         19/39       +0.08    -0.012    5.03e-01    0.5027    0.523
+  mutation     25/39       -1.20     0.170    9.86e-02    0.1971    0.548
+  both         28/39       -2.01     0.367    9.76e-03    0.0293    0.569  *
+
+============================================================================
+[3] Per-network mean improvement (Table 2), both ways
+  --- default ---
+    init      {'A': 0.0, 'B': 0.09, 'C': 0.12, 'D': -0.01, 'J': -0.1}
+    mutation  {'A': 1.06, 'B': 0.25, 'C': 0.17, 'D': 0.14, 'J': 0.63}
+    both      {'A': 1.22, 'B': 0.44, 'C': 0.29, 'D': 0.14, 'J': 0.88}
+  --- held-out ---
+    init      {'A': -0.38, 'B': 0.1, 'C': -0.1, 'D': 0.07, 'J': 0.08}
+    mutation  {'A': 0.21, 'B': 0.52, 'C': -0.22, 'D': 0.34, 'J': 0.07}
+    both      {'A': 0.97, 'B': 0.53, 'C': 0.01, 'D': 0.37, 'J': 0.86}
+
+============================================================================
+[4] Is the margin distinguishable from seed noise?
+  within-solution SUMO-seed sd, median over runs: 8.09 s
+                                mean over runs  : 10.13 s
+  init     : paper margin -0.19 s | held-out margin +0.08 s | ratio to seed sd 0.008
+  mutation : paper margin -1.56 s | held-out margin -1.20 s | ratio to seed sd 0.119
+  both     : paper margin -2.10 s | held-out margin -2.01 s | ratio to seed sd 0.198
+
+============================================================================
+[5] Do the two evaluations agree instance by instance?
+  init     : sign agreement 22/39   Spearman rho = +0.244
+  mutation : sign agreement 28/39   Spearman rho = +0.574
+  both     : sign agreement 28/39   Spearman rho = +0.511
